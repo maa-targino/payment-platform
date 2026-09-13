@@ -8,8 +8,6 @@ Projeto de Plataforma de Pagamentos com finalidade de evoluir conhecimentos em J
 
 O Projeto seguirá a Arquitetura Hexagonal.
 
-## Development Workflow
-
 - Packages serão introduzidos conforme responsabilidades reais surgirem;
 - Não criaremos packages vazios ou classes placeholder;
 - O domínio não dependerá de Spring, HTTP, JPA ou infraestrutura;
@@ -27,10 +25,23 @@ O Projeto seguirá a Arquitetura Hexagonal.
 
 ## Build
 
+O projeto utilizará o Maven para gerenciar as dependências e construir o projeto.
+
 ```bash
 .\mvnw.cmd clean verify
+```
 
 ## Run
 
-```powershell
+```bash
 .\mvnw.cmd spring-boot:run
+```
+
+## Development Workflow
+
+Issue → Branch → Implementation → Tests → Pull Request → Code Review → Merge
+
+## Branch convention
+
+```text
+feature/<issue-id>-<short-description>
