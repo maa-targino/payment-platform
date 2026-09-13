@@ -2,7 +2,7 @@
 
 ## Overview
 
-Projeto de Plataforma de Pagamentos com finalidade de evoluir conhecimentos em Java 25, Springboot Framework, Arquitetura Hexagonal e Gestão de Projetos Ágeis. 
+Projeto de Plataforma de Pagamentos com finalidade de evoluir conhecimentos em Java 25, Spring Boot, Arquitetura Hexagonal e Gestão de Projetos Ágeis. 
 
 ## Architecture
 
@@ -45,3 +45,10 @@ Issue → Branch → Implementation → Tests → Pull Request → Code Review �
 
 ```text
 feature/<issue-id>-<short-description>
+```
+
+Example:
+
+```text
+feature/DEV-5-bootstrap-application
+```
