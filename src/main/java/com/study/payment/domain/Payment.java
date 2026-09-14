@@ -26,7 +26,7 @@ public class Payment {
             throw new IllegalArgumentException("Currency cannot be null");
         }
 
-        this.id = id;
+        this.id = UUID.randomUUID();
         this.amount = amount;
         this.currency = currency;
         this.status = PaymentStatus.PENDING;
